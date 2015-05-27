@@ -1,8 +1,6 @@
 
 module.exports = {
-    entry: {
-        jobs: './src/app.jsx'
-    },
+    entry: './src/app.jsx',
     output: {
       path: './build/' ,
       filename: 'bundle.js'
