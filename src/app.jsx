@@ -1,7 +1,9 @@
 
 import React from 'react';
+import ReactDOM from 'react-dom';
 import HelloMessage from './components/HelloMessage';
+
 
 console.log(HelloMessage);
 
-React.render(<HelloMessage name="chunghe" />, document.querySelector('#app'));
+ReactDOM.render(<HelloMessage name="chunghe" />, document.querySelector('#app'));
