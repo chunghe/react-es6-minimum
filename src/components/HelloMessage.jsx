@@ -1,7 +1,7 @@
 
 import React, {Component} from 'react';
 
-class Hello {
+class HelloMessage {
   render() {
     return (
       <h1>hello world, {this.props.name}</h1>
@@ -9,4 +9,4 @@ class Hello {
   }
 }
 
-export default Hello;
+export default HelloMessage;
