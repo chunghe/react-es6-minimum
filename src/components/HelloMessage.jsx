@@ -1,7 +1,7 @@
 
 import React, {Component} from 'react';
 
-export default class extends Component {
+class Hello {
   render() {
     return (
       <h1>hello world, {this.props.name}</h1>
@@ -9,3 +9,4 @@ export default class extends Component {
   }
 }
 
+export default Hello;
